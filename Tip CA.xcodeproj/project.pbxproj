@@ -12,6 +12,8 @@
 		5DF60AA81F20466C00D926A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DF60AA61F20466C00D926A4 /* Main.storyboard */; };
 		5DF60AAA1F20466C00D926A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DF60AA91F20466C00D926A4 /* Assets.xcassets */; };
 		5DF60AAD1F20466C00D926A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DF60AAB1F20466C00D926A4 /* LaunchScreen.storyboard */; };
+		5DF60AB51F29915800D926A4 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF60AB41F29915800D926A4 /* SettingsViewController.swift */; };
+		5DF60AB71F2993C600D926A4 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF60AB61F2993C600D926A4 /* File.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		5DF60AA91F20466C00D926A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5DF60AAC1F20466C00D926A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5DF60AAE1F20466C00D926A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DF60AB41F29915800D926A4 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		5DF60AB61F2993C600D926A4 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +42,8 @@
 		5DF60A961F20466B00D926A4 = {
 			isa = PBXGroup;
 			children = (
+				5DF60AB41F29915800D926A4 /* SettingsViewController.swift */,
+				5DF60AB61F2993C600D926A4 /* File.swift */,
 				5DF60AA11F20466C00D926A4 /* Tip CA */,
 				5DF60AA01F20466C00D926A4 /* Products */,
 			);
@@ -137,7 +143,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5DF60AA51F20466C00D926A4 /* ViewController.swift in Sources */,
+				5DF60AB71F2993C600D926A4 /* File.swift in Sources */,
 				5DF60AA31F20466C00D926A4 /* AppDelegate.swift in Sources */,
+				5DF60AB51F29915800D926A4 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +305,7 @@
 				5DF60AB31F20466C00D926A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
